@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Esercizi di matematica</title>
+    <link>https://esercizi-mate2.herokuapp.com/posts/</link>
+    <description>Recent content in Posts on Esercizi di matematica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0100</lastBuildDate>
+    
+        <atom:link href="https://esercizi-mate2.herokuapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disegnare le frazioni come quadretti</title>
+      <link>https://esercizi-mate2.herokuapp.com/posts/frazioni/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://esercizi-mate2.herokuapp.com/posts/frazioni/</guid>
+      <description>&lt;p&gt;Dedico a mia moglie il mio primo tentativo di rifare con il linguaggio go una applicazione semplice che disegna le frazioni per le sue verifiche.&lt;/p&gt;
+&lt;form id=&#34;fraction_squares&#34; action=&#34;https://esercizi-mate2.herokuapp.com/frac&#34; method=&#34;GET&#34;&gt;
+  &lt;label for=&#34;scale&#34;&gt;Scala di un quadretto (10 px &lt; &lt;em&gt;scala&lt;/em&gt; &lt; 30 px)&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;scale&#34; size=&#34;3&#34;/&gt; px&lt;br&gt;
+  &lt;label for=&#34;rows&#34;&gt;Numero di righe (max. 20)&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;rows&#34; size=&#34;3&#34; id=&#34;rows&#34;/&gt;&lt;br&gt;
+  &lt;label for=&#34;columns&#34;&gt;Numero di colonne (max. 20)&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;columns&#34; size=&#34;3&#34; id=&#34;cols&#34;/&gt;&lt;br&gt;
+  &lt;label for=&#34;filled&#34;&gt;Quadretti pieni&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;filled&#34; size=&#34;2&#34;/&gt;
+  &lt;input type=&#34;submit&#34; value=&#34;Disegna la frazione&#34;/&gt;
+&lt;/form&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
