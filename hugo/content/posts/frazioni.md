@@ -1,21 +1,29 @@
 ---
 title: "Disegnare le frazioni come quadretti"
-date: 2020-12-02T00:00:00+01:00
+date: 2022-10-25T00:00:00+02:00
 categories:
 - Utility
 tags:
 - Utility
 - Development
 ---
-Dedico a mia moglie il mio primo tentativo di rifare con il linguaggio go una applicazione semplice che disegna le frazioni per le sue verifiche.
+Questa è la terza stesura del programma che disegna la frazioni come griglie di quadretti colorati.
 
+Dalla prima versione in Ruby, generando l'immagine sul server, sono passato a riscrivere in linguaggio Go lo stesso programma. Ora è tutto fatto in Javascript nel browser stesso.
+
+Dedicato a Stefania che lo usa per scrivere le sue verifiche.
 <!--more-->
 
+{{< unsafe >}}
+<script defer src="/frac.js"></script>
+<canvas id="canvas" width="200" height="200"></canvas>
+<br><a href="" id="download_link">Download</a>
+{{< /unsafe >}}
+
 <form id="fraction_squares" action="/frac" method="GET">
-  <label for="scale">Scala di un quadretto (10 px < <em>scala</em> < 30 px)</label> <input type="text" name="scale" size="3"/> px<br>
-  <label for="rows">Numero di righe (max. 20)</label> <input type="text" name="rows" size="3" id="rows"/><br>
-  <label for="columns">Numero di colonne (max. 20)</label> <input type="text" name="columns" size="3" id="cols"/><br>
-  <label for="filled">Quadretti pieni</label> <input type="text" name="filled" size="2"/>
+  <label for="scale">Scala di un quadretto (10 px < <em>scala</em> < 30 px)</label> <input type="text" name="scale" size="3" value="25"/> px<br>
+  <label for="rows">Numero di righe (max. 20)</label> <input type="text" name="rows" size="3" id="rows" value="7"/><br>
+  <label for="columns">Numero di colonne (max. 20)</label> <input type="text" name="columns" size="3" id="cols" value="3"/><br>
+  <label for="filled">Quadretti pieni</label> <input type="text" name="filled" size="2" value="5"/>
   <input type="submit" value="Disegna la frazione"/>
 </form>
-

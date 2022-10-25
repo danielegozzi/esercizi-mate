@@ -1,0 +1,8 @@
+@font-face {
+  font-family: CaslonAntique;
+  src: url(/caslon-antique-normal.otf) format("opentype");
+}
+
+html {
+  font-family: CaslonAntique,serif;
+}
