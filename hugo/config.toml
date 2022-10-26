@@ -1,4 +1,4 @@
-baseURL = "https://esercizi-mate2.herokuapp.com/"
+baseURL = "https://danielegozzi.github.io/esercizi-mate/"
 title = "Esercizi di matematica"
 theme = "hugo-notepadium"
 copyright = ""
