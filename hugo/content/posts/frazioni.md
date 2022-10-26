@@ -15,12 +15,12 @@ Dedicato a Stefania che lo usa per scrivere le sue verifiche.
 <!--more-->
 
 {{< unsafe >}}
-<script defer src="/frac.js"></script>
+<script defer src="/esercizi-mate/frac.js"></script>
 <canvas id="canvas" width="200" height="200"></canvas>
 <br><a href="" id="download_link">Download</a>
 {{< /unsafe >}}
 
-<form id="fraction_squares" action="/frac" method="GET">
+<form id="fraction_squares" action="" method="GET">
   <label for="scale">Scala di un quadretto (10 px < <em>scala</em> < 30 px)</label> <input type="text" name="scale" size="3" value="25"/> px<br>
   <label for="rows">Numero di righe (max. 20)</label> <input type="text" name="rows" size="3" id="rows" value="7"/><br>
   <label for="columns">Numero di colonne (max. 20)</label> <input type="text" name="columns" size="3" id="cols" value="3"/><br>
