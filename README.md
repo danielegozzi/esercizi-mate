@@ -1,2 +1,2 @@
 # Common tasks
-Updating pages: `hugo -s hugo -d ../static/`
+Updating pages: `hugo -s hugo -d ../docs/`
