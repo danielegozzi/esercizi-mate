@@ -7,17 +7,21 @@ tags:
 - Utility
 - Development
 ---
+![Stefania]({{< resource url="dan_stefy.png#floatleft" >}})
 Questa è la terza stesura del programma che disegna la frazioni come griglie di quadretti colorati.
 
 Dalla prima versione in Ruby, generando l'immagine sul server, sono passato a riscrivere in linguaggio Go lo stesso programma. Ora è tutto fatto in Javascript nel browser stesso.
 
-Dedicato a Stefania che lo usa per scrivere le sue verifiche.
+Dedicato a Stefania, mia moglie, che lo usa per scrivere le sue verifiche.
 <!--more-->
 
 {{< unsafe >}}
 <script defer src="/esercizi-mate/frac.js"></script>
+<hr>
+<div style="clear: both">
 <canvas id="canvas" width="200" height="200"></canvas>
 <br><a href="" id="download_link">Download</a>
+</div>
 {{< /unsafe >}}
 
 <form id="fraction_squares" action="" method="GET">
@@ -27,3 +31,7 @@ Dedicato a Stefania che lo usa per scrivere le sue verifiche.
   <label for="filled">Quadretti pieni</label> <input type="text" name="filled" size="2" value="5"/>
   <input type="submit" value="Disegna la frazione"/>
 </form>
+
+{{< unsafe >}}
+</div>
+{{< /unsafe >}}

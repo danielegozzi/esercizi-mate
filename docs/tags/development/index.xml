@@ -4,7 +4,6 @@
     <link>https://danielegozzi.github.io/esercizi-mate/tags/development/</link>
     <description>Recent content in Development on Esercizi di matematica</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>it-it</language>
     <lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0200</lastBuildDate>
     
         <atom:link href="https://danielegozzi.github.io/esercizi-mate/tags/development/index.xml" rel="self" type="application/rss+xml" />
@@ -16,12 +15,17 @@
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0200</pubDate>
       
       <guid>https://danielegozzi.github.io/esercizi-mate/posts/frazioni/</guid>
-      <description>&lt;p&gt;Questa è la terza stesura del programma che disegna la frazioni come griglie di quadretti colorati.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img  src=&#34;https://danielegozzi.github.io/esercizi-matedan_stefy.png#floatleft&#34;
+        alt=&#34;Stefania&#34;/&gt;
+Questa è la terza stesura del programma che disegna la frazioni come griglie di quadretti colorati.&lt;/p&gt;
 &lt;p&gt;Dalla prima versione in Ruby, generando l&amp;rsquo;immagine sul server, sono passato a riscrivere in linguaggio Go lo stesso programma. Ora è tutto fatto in Javascript nel browser stesso.&lt;/p&gt;
-&lt;p&gt;Dedicato a Stefania che lo usa per scrivere le sue verifiche.&lt;/p&gt;
+&lt;p&gt;Dedicato a Stefania, mia moglie, che lo usa per scrivere le sue verifiche.&lt;/p&gt;
 &lt;script defer src=&#34;https://danielegozzi.github.io/esercizi-mate/esercizi-mate/frac.js&#34;&gt;&lt;/script&gt;
+&lt;hr&gt;
+&lt;div style=&#34;clear: both&#34;&gt;
 &lt;canvas id=&#34;canvas&#34; width=&#34;200&#34; height=&#34;200&#34;&gt;&lt;/canvas&gt;
 &lt;br&gt;&lt;a href=&#34;&#34; id=&#34;download_link&#34;&gt;Download&lt;/a&gt;
+&lt;/div&gt;
 
 &lt;form id=&#34;fraction_squares&#34; action=&#34;&#34; method=&#34;GET&#34;&gt;
   &lt;label for=&#34;scale&#34;&gt;Scala di un quadretto (10 px &lt; &lt;em&gt;scala&lt;/em&gt; &lt; 30 px)&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;scale&#34; size=&#34;3&#34; value=&#34;25&#34;/&gt; px&lt;br&gt;
@@ -29,7 +33,9 @@
   &lt;label for=&#34;columns&#34;&gt;Numero di colonne (max. 20)&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;columns&#34; size=&#34;3&#34; id=&#34;cols&#34; value=&#34;3&#34;/&gt;&lt;br&gt;
   &lt;label for=&#34;filled&#34;&gt;Quadretti pieni&lt;/label&gt; &lt;input type=&#34;text&#34; name=&#34;filled&#34; size=&#34;2&#34; value=&#34;5&#34;/&gt;
   &lt;input type=&#34;submit&#34; value=&#34;Disegna la frazione&#34;/&gt;
-&lt;/form&gt;</description>
+&lt;/form&gt;
+
+&lt;/div&gt;</description>
     </item>
     
   </channel>

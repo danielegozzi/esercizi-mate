@@ -6,3 +6,13 @@
 html {
   font-family: CaslonAntique,serif;
 }
+
+img[src$='#floatleft']
+{
+	float:left;
+  margin-right: 1em
+}
+
+body {
+  hyphens: none;
+}

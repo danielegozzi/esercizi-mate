@@ -3,7 +3,7 @@ title = "Esercizi di matematica"
 theme = "hugo-notepadium"
 copyright = ""
 
-languageCode = "it-it"
+Language.Lang = "it-it"
 hasCJKLanguage = false
 
 enableRobotsTXT = true
@@ -17,6 +17,9 @@ enableRobotsTXT = true
 [markup.highlight]
 codeFences = true
 noClasses = false
+
+[markup.goldmark.parser.attribute]
+block = true
 
 [markup.goldmark.renderer]
 unsafe = true  # enable raw HTML in Markdown
